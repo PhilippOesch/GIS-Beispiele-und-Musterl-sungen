@@ -9,6 +9,6 @@
 * [Direkt zum TypeScript-Code](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterl-sungen/tree/main/GIS-DOM-Experimente/script.ts)
 * [Page](https://philippoesch.github.io/GIS-Beispiele-und-Musterloesungen/GIS-DOM-Experimente/)
 ## LocalStorage Einführung
-* [Gesamter Quellcode](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterl-sungen/tree/main/DOM-Hilfestellung)
-* [Direkt zum TypeScript-Code](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterl-sungen/tree/main/DOM-Hilfestellung/scripts.ts)
-* [Page](https://philippoesch.github.io/GIS-Beispiele-und-Musterloesungen/DOM-Hilfestellung/)
+* [Gesamter Quellcode](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/LocalStorage%20Hilfestellung)
+* [Direkt zum TypeScript-Code](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/LocalStorage%20Hilfestellung/script.ts)
+* [Page](https://philippoesch.github.io/GIS-Beispiele-und-Musterloesungen/LocalStorage%20Hilfestellung/)
