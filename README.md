@@ -1,4 +1,4 @@
-# GIS-Beispiele-und-Musterlösungen
+# GIS WISE 21/22 Beispiele und Musterlösungen
  Hier werden Aktuelle Beispiele und Musterlösungen Veröffentlicht
  
 ## Inhaltsverzeichnis
