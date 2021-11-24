@@ -9,4 +9,4 @@
 
 ### Musterlösungen
 
-* [TypeScript Überblick](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/LocalStorage%20Hilfestellung)
+* [TypeScript Überblick](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Überblick)
