@@ -5,7 +5,8 @@
 ### Beispiele
 * [DOM-Hilfestellung aus dem Praktikum](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterl-sungen/tree/main/DOM-Hilfestellung)
 * [DOM-Experimente](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterl-sungen/tree/main/GIS-DOM-Experimente)
-* [LocalStorage Einführung](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/LocalStorage%20Hilfestellung)
+* [LocalStorage - Konvertierung von Objekten mit JSON](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/LocalStorage%20Hilfestellung)
+* [LocalStorage - Input-Feld Speicherbeispiel](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Weiteres%20LocalStorage%20Beispiel)
 
 ### Musterlösungen
 
