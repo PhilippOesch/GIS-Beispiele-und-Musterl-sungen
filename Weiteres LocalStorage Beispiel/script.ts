@@ -1,4 +1,4 @@
-namespace localStorageBeispiel{
+namespace localStorageBeispiel {
     // Variante 1
     // const inputFeld: HTMLInputElement = document.getElementById("input-element") as HTMLInputElement;
     // Variante 2
