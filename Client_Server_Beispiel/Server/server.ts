@@ -1,4 +1,6 @@
+// http-Modul importieren
 import * as http from "http";
+// Abhängigkeit muss(wenn noch nicht vorhanden) zunächst mit "npm install @types/node"
 
 namespace Server {
   //Hostname des Servers: Da wir lokal arbeiten, ist die Serveradresse der Localhost
@@ -34,7 +36,7 @@ namespace Server {
         case "/greetings": //Spezifischer Pfad
           let name: string = url.searchParams.get("name"); //Auslesen eines Get-Parameters "name"
           console.log(name); // Ausgabe der Angekommenen get-Parameters in der Server-Konsole
-          response.write("Hallo " + name + ", schön dich zu sehen!"); //Definieren der Rückgabe mit der name-Variable
+          response.write("Hallo " + name + ", schoen dich zu sehen!"); //Definieren der Rückgabe mit der name-Variable
           break;
         default:
           response.statusCode = 404; // Wenn der Pfad nicht gefunden wurde, wollen wir eine 404-Fehlermeldung zurückgeben
@@ -51,3 +53,5 @@ namespace Server {
     console.log(`Server running at http://${hostname}:${port}`); //Wenn der Server erreichbar ist, soll folgendes ausgegeben werden.
   });
 }
+
+// Ausführen mit "node ./Server/server.js" in der Kommandozeile ausführen
