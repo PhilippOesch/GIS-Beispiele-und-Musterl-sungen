@@ -8,7 +8,7 @@ namespace Client {
     const sendButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("send-button"); //Referenzieren des Send-Buttons
 
     //EventListener für ein Click-Event aud den sendButton
-    sendButton.addEventListener("click", function(evt: Event){
+    sendButton.addEventListener("click", function (evt: Event) {
         evt.preventDefault(); //Vermeiden, dass Event wie gewöhlich ausgeführt wird
         sendForm(); // sendForm-Funktion aufrufen.
     });
@@ -22,7 +22,7 @@ namespace Client {
     async function sendForm(): Promise<void> {
 
         //Vorbereiten der Formulardaten zum Sende-Prozess
-        let formData: FormData= new FormData(myForm); //Formulardaten mit unserem Formular initialisieren.
+        let formData: FormData = new FormData(myForm); //Formulardaten mit unserem Formular initialisieren.
         let query: URLSearchParams = new URLSearchParams(<any>formData); //Get-Parameter vorbereiten
         let urlWithQuery: string = url + path + "?" + query.toString(); //Formatierung der URL zum Senden an den Server
         /* 

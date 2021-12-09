@@ -26,7 +26,7 @@ namespace Server {
 
       //Routing der verschiedenen Pfade
       //_________
-      let url: URL = new URL(request.url || "",`http://${request.headers.host}`); //Für das Routing definieren wir zunächst ein URL-Objekt
+      let url: URL = new URL(request.url || "", `http://${request.headers.host}`); //Für das Routing definieren wir zunächst ein URL-Objekt
 
       // Nun Regeln wir mit einemm Switch-Case welcher Pfad, wie verarbeitet werden soll
       switch (url.pathname) {
