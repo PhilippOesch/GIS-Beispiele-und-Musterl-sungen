@@ -12,4 +12,4 @@
 ### Musterlösungen
 
 * [TypeScript Überblick](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Überblick)
-* [TypeScript](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/DOM_EVENTS)
+* [TypeScript DOM und Events](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/DOM_EVENTS)
