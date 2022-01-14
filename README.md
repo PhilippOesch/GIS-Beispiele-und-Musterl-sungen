@@ -8,6 +8,7 @@
 * [LocalStorage - Konvertierung von Objekten mit JSON](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/LocalStorage%20Hilfestellung)
 * [LocalStorage - Input-Feld Speicherbeispiel](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Weiteres%20LocalStorage%20Beispiel)
 * [Server - Client - Beispiel](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Client_Server_Beispiel)
+* [MongoDB - Server - Beispiel](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/mongodb_ts_beispiel)
 
 ### Musterlösungen
 
