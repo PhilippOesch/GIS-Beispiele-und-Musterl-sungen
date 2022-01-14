@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stopwatch</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Stopwatch</h1>
-      <div class="center-container">
-        <h3 id="timer-display">00.00</h3>
-        <svg
-        class="circle-container"
-        viewBox="0 0 100 100"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div class="center-container">
+      <h3 id="timer-display">00.00</h3>
+      <svg class="circle-container" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <circle class="background-circle" stroke-width="2" cx="50" cy="50" r="40" />
         <circle id="circle-object" stroke-width="6" cx="50" cy="50" r="40" />
       </svg>
-      </div>
-      <div class="btn-container">
-        <button id="start-button" class="btn">Start</button>
-        <button id="stop-button" class="btn">Stop</button>
-        <button id="reset-button" class="btn">Reset</button>
-        <button id="checkpoint-button" class="btn">Checkpoint</button>
-      </div>
-      <div class="checkpoint-container">
-        <h1>Checkpoints</h1>
-        <div id="checkpoint-display">
-        </div>
+    </div>
+    <div class="btn-container">
+      <button id="start-button" class="btn">Start</button>
+      <button id="stop-button" class="btn">Stop</button>
+      <button id="reset-button" class="btn">Reset</button>
+      <button id="checkpoint-button" class="btn">Checkpoint</button>
+    </div>
+    <div class="checkpoint-container">
+      <h1>Checkpoints</h1>
+      <div id="checkpoint-display">
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
