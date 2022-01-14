@@ -1,4 +1,4 @@
-namespace domAndEvents {
+namespace jsonAndLocalStorage {
   // Interface für die Event-Objekte
   interface ConcertEvent {
     interpret: string;

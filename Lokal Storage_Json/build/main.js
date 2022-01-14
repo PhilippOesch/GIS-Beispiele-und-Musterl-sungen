@@ -1,6 +1,6 @@
 "use strict";
-var domAndEvents;
-(function (domAndEvents) {
+var jsonAndLocalStorage;
+(function (jsonAndLocalStorage) {
     // HTMLElement Definitionen
     const enterbutton = document.querySelector("#enter-button");
     // HTML Inputs
@@ -149,5 +149,5 @@ var domAndEvents;
     function init() {
         updateView();
     }
-})(domAndEvents || (domAndEvents = {}));
+})(jsonAndLocalStorage || (jsonAndLocalStorage = {}));
 //# sourceMappingURL=main.js.map
