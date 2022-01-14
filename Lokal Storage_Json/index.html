@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript DOM und Events - Beispiel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src></script>
+    <!-- <script src="./build/main.min.js" defer></script> -->
+    <script src="./build/main.js" defer></script>
+  </head>
+  <body>
+    <div class="ui container">
+      <form class="ui form">
+        <div class="two fields">
+          <div class="field">
+            <label>Interpret</label>
+            <input
+              id="interpret-input"
+              type="text"
+              name="interpret"
+              placeholder="Interpret"
+            />
+          </div>
+          <div class="field">
+            <label>Price</label>
+            <input
+              id="price-input"
+              type="number"
+              name="price"
+              placeholder="Price"
+            />
+          </div>
+        </div>
+        <div class="field">
+          <label>Date and Time</label>
+          <input
+            id="datetime-input"
+            type="datetime-local"
+            name="datetime"
+            placeholder="Price"
+          />
+        </div>
+        <button id="enter-button" class="ui button" type="submit">
+          Enter Event
+        </button>
+      </form>
+      <h1>Events Table</h1>
+      <table class="ui celled table">
+        <thead>
+          <tr>
+            <th>Interpret</th>
+            <th>Price</th>
+            <th>Date and Time</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- <tr>
+            <td data-label="Nr.">James</td>
+            <td data-label="Name">James</td>
+            <td data-label="Age">24</td>
+            <td data-label="Job">Engineer</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td data-label="Nr.">James</td>
+            <td data-label="Name">James</td>
+            <td data-label="Age">24</td>
+            <td data-label="Job">Engineer</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td data-label="Nr.">James</td>
+            <td data-label="Name">James</td>
+            <td data-label="Age">24</td>
+            <td data-label="Job">Engineer</td>
+            <td></td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

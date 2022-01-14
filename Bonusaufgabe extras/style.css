@@ -1,0 +1,98 @@
+body{
+    background-color: #121216;
+    color: #4cc9f0;
+    font-family: "Roboto";
+}
+
+.container{
+    /* #184e77 */
+    background-color: #121216;
+    text-align: center;
+    margin: 3rem auto auto auto;
+    max-width: 26rem;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.circle-container{
+    transform: rotateZ(-90deg);
+    width: 22rem;
+}
+
+#stop-button, #checkpoint-button{
+    display: none;
+}
+
+#circle-object{ 
+    fill: none;
+    stroke: #9b1fff;
+}
+
+h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.center-container{
+    position: relative;
+}
+
+#timer-display{
+    font-size: 2.25rem;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin: 0;
+    padding-bottom: 1rem;
+    transform: translateY(-50%);
+}
+
+.btn{
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    color: #4cc9f0;
+    border: 0.1rem solid #4cc9f0;
+    padding: 0.5rem 1.5rem;
+    margin: 0.25rem 0.25rem;
+    border-radius: 0.25em;
+    transition: color 0.3s, border 0.3s;
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: rgba(233, 233, 233, 0.7);
+    border: 0.1rem solid rgba(233, 233, 233, 0.7);
+}
+
+.checkpoint-container{
+    margin-top: 2rem;
+    border-top: 2px solid #4cc9f0;
+}
+
+.checkpoint-container h1{
+    padding: 1rem 0 1.5rem 0;
+    font-size: 2.5rem;
+}
+
+#checkpoint-display div{
+    font-size: 1.75rem;
+    padding: 0.25rem 0;
+    font-weight: 600;
+    color: rgba(76, 201, 240, 0.7);
+}
+
+.background-circle{
+    stroke: #2c2c36;
+    fill: none;
+}
+
+/* #checkpoint-display div:hover{
+    transition: transform 0.3s, color 0.3s;
+    transform: scale(1.2);
+    color: rgba(76, 201, 240, 1);
+    cursor: pointer;
+} */

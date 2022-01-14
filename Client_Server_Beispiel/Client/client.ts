@@ -1,8 +1,11 @@
 namespace Client {
     console.log("Client läuft"); //Testausgabe
 
+
     const url: string = "http://127.0.0.1:3000"; //URL Adresse, auf der der Server aktiv ist.
     const path: string = "/greetings"; //Spezifischer Pfad, an den die Anfrage gehen soll.
+
+    // server-pfad: http://127.0.0.1:3000/greetings
 
     const myForm: HTMLFormElement = <HTMLFormElement>document.getElementById("myform"); //Referenzieren des Formulars
     const sendButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("send-button"); //Referenzieren des Send-Buttons
