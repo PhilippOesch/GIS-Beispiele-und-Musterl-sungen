@@ -13,4 +13,5 @@
 
 * [TypeScript Überblick](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Überblick)
 * [TypeScript DOM und Events](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/DOM_EVENTS)
-* [TS JSON und localStorage](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Lokal%20Storage_Json)
+* [TypeScript JSON und localStorage](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Lokal%20Storage_Json)
+* [TypeScript Bonusaufgabe](https://github.com/PhilippOesch/GIS-Beispiele-und-Musterloesungen/tree/main/Bonusaufgabe%20extras)
