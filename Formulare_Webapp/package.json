@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node ./Server/server.js"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "mongodb": "^4.2.2"
+  }
+}
