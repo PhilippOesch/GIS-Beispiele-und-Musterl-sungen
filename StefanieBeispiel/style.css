@@ -1,0 +1,47 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  bottom: 10%;
+  background: lightgrey;
+  padding: 0em 1em;
+}
+
+.hide {
+  display: none;
+}
+
+label {
+  float: left;
+  margin-right: 0.2em;
+}
+
+input,
+select {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.radioGroup label {
+  float: initial;
+}
+
+.radioGroup input {
+  display: initial;
+}
+
+#cancel {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}

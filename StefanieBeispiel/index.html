@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="client.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="add">+</button>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>matrikelNr</th>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>Semester</th>
+                <th>Fakultät</th>
+                <th>Studiengang</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <form id="studentForm" class="hide">
+        <h3>Student*in</h3>
+        <input id="_id" class="hide" name="_id" type="text" />
+        <label for="studentNr">MatrikelNr:</label>
+        <input id="studentNr" name="studentNr" type="number" />
+        <label for="firstName">Vorname:</label>
+        <input id="firstName" name="firstName" type="text" />
+        <label for="lastName">Nachname:</label>
+        <input id="lastName" name="lastName" type="text" />
+        <div id="semester" class="radioGroup">
+            <label>Semester:</label>
+            <label><input type="radio" name="semester" value="1" />1</label>
+            <label><input type="radio" name="semester" value="2" />2</label>
+            <label><input type="radio" name="semester" value="3" />3</label>
+            <label><input type="radio" name="semester" value="4" />4</label>
+            <label><input type="radio" name="semester" value="5" />5</label>
+            <label><input type="radio" name="semester" value="6" />6</label>
+            <label><input type="radio" name="semester" value="7" />7</label>
+        </div>
+        <label for="faculty">Fakultät:</label>
+        <select id="faculty" name="faculty"></select>
+        <label for="course">Studiengang:</label>
+        <select id="course" name="course"></select>
+        <button id="cancel" type="button">x</button>
+        <button id="save" type="submit">Speichern</button>
+    </form>
+</body>
+
+</html>
