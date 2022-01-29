@@ -68,7 +68,7 @@ const server: http.Server = http.createServer(
         let url: URL = new URL(request.url || "", `http://${request.headers.host}`);
 
         switch (url.pathname) {
-            case "/user":
+            case "/user": //user Pfad
                 switch (request.method) {
                     case "POST":
                         let jsonString: string = "";
@@ -81,9 +81,9 @@ const server: http.Server = http.createServer(
                         })
                         break;
                     case "GET":
-                        const id = url.searchParams.get("_id")
-                        console.log(id);
-                        await dbFind("usersDB", "users", { _id: new mongo.ObjectId(id) }, response)
+                        const id = url.searchParams.get("_id") // Gesendeten Parameter abfangen
+                        console.log(id); //Parameter ausgeben
+                        await dbFind("usersDB", "users", { _id: new mongo.ObjectId(id) }, response) //Datenbank-Objekt mit der passenden ID auslesen
                 }
                 break;
             default:

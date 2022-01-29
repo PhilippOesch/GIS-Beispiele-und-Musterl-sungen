@@ -13,6 +13,7 @@ async function getEntryWithID() {
 
     let text: string = await result.text()
     // die Rückgabe ist der Datenbank-Eintrag mit der entsprechenden ID
+    // wenn ich z.B. folgende Adresse Anfrage: "http://127.0.0.1:3000/user?_id=abcdef" bekomme ich den Datenbankeintrag mit der ID "abcdef"
     console.log(text)
 }
 
